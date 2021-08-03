@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- https://docs.microsoft.com/en-us/dotnet/core/tools/csproj#nuget-metadata-properties -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Alvaro Montero Gonzalez</Authors>
+    <owners>Alvaro Montero Gonzalez</owners>    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <Description>Repository pattern implementation base on file system. A Json file format will be used to store the data. Very useful when working on POC that will later use a different implementation of the repository pattern abstraction</Description>
+    <Copyright>Copyright 2019</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIconUrl>https://www.nuget.org/Content/gallery/img/default-package-icon.svg</PackageIconUrl>
+    <RepositoryUrl>https://github.com/alvaromongon/Repository.Pattern.FileSystem</RepositoryUrl>
+
+    <PackageTags>netstandard;repository-pattern;file-system</PackageTags>  
+
+</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Repository.Pattern.Abstractions" Version="1.0.17" />
+  </ItemGroup>
+
+</Project>
+
